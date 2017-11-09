@@ -1,6 +1,15 @@
 {
   "name": "url-shortner",
+<<<<<<< HEAD
   "version": "1.2",
+=======
+  "version": "1.1.0",
+  "description": "Learn about authentication by building a link shortener",
+  "private": true,
+  "engines": {
+    "node": ">=4.0.0"
+  },
+>>>>>>> ac6730569c52498c6ab5c74bd4905949a8089585
   "scripts": {
     "start": "nodemon --ignore node_modules index.js",
     "test": "mocha --bail --reporter nyan test/ServerSpec.js",
